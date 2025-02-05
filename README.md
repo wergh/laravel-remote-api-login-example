@@ -10,13 +10,14 @@ Installation
 
 - run the commands:
 ```sh
+composer install
+
+npm install && npm run build
+
 php artisan key:generate
 
 php artisan migrate
 
-composer install
-
-npm install && npm run build
 ```
 
 After that you can enter into your Laravel, go to register and create your user to test.
